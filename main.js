@@ -40,9 +40,9 @@ class Game {
         this.winScore = 50;                                    //score and winning (max) score
         this.fontColor = 'black';
         this.time = 0;
-        this.maxTime = 120000;                                 //max game time
+        this.maxTime = 100000;                                 //max game time
         this.gameOver = false;      
-        this.lives = 10;
+        this.lives = 9;
         this.player.currentState = this.player.states[0];       //initiated in player class at null
         this.player.currentState.enter();                       //how game enters different states
         this.music = new Audio("../sounds/BatTheme.mp3");

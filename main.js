@@ -16,10 +16,6 @@ document.getElementById("start").onclick = () => {
     canvas.style.display = "block";
 }
 
-document.getElementById("mute").onclick = () => {
-    myMusic.muted = !myMusic.muted
-}
-
 //loading canvas at load and defining width n height
 class Game {
     constructor (width, height){                                //constr takes 2 arguments 
@@ -51,6 +47,9 @@ class Game {
         this.player.currentState.enter();                       //how game enters different states
         this.music = new Audio("../sounds/BatTheme.mp3");
         this.music.loop = true;
+        document.getElementById("mute").onclick = () => {
+            this.music.muted = !this.music.muted
+        }
     }
     update(deltaTime){                                          //deltaetime as argument to calculate frames
         this.time += deltaTime;

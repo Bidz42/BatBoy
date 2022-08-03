@@ -4,7 +4,7 @@ Week 3 project
 
 # Description
 
-Batboy is a character whom I found online and purchased for $5. I named him BatBoy to suit the theme of our projects, being on Team DC, ironically this characters attacks include a bat, hence Batboy. The objective is to either roll or attack, using 'a' and 's' to destroy Marvel Heroes. The character has full mobility of the canvas being able to move left and right aswell as up and down. I have set the max score to be 50 points and a time limit of 100 seconds to obtain this score. You win either by obtaining this score, even if you have lost all of your 9 lives. The lose condition is not obtaining the score given in the time limit or the amount of lives you have. 
+Batboy is a character whom I found online and purchased for $5. I named him BatBoy to suit the theme of our projects, being on Team DC, ironically this characters attacks include a bat, hence Batboy. The objective is to either roll or attack, using 'a' and 's' to destroy Marvel Heroes. The character has full mobility of the canvas being able to move left and right aswell as up and down. I have set the max score to be 50 points and a time limit of 120 seconds to obtain this score. You win either by obtaining this score, even if you have lost all of your 9 lives. The lose condition is not obtaining the score given in the time limit or the amount of lives you have. 
 
 # MVP 
 - game has character which can move around the canvas

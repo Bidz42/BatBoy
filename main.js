@@ -112,7 +112,6 @@ class Game {
     }                                                           // ground and climb enemy work either or, flying enemy is constant
 }
 const game = new Game(canvas.width, canvas.height);
-game.music.muted = true;
 game.music.play();
 
 //animation time stamps and delta time

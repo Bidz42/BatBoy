@@ -46,7 +46,7 @@ class Game {
         this.lives = 9;
         this.player.currentState = this.player.states[0];       //initiated in player class at null
         this.player.currentState.enter();                       //how game enters different states
-        this.music = new Audio("../sounds/BatTheme.mp3");
+        this.music = new Audio("./sounds/BatTheme.mp3");
         this.music.loop = true;
         document.getElementById("mute").onclick = () => {
             this.music.muted = !this.music.muted

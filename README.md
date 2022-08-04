@@ -75,6 +75,6 @@ For my own ease of editing and configuring I applied a state design stucture pla
 - fades away to the game score as a +1
 
 # links
-### git ...
-### slides ...
+### git-page https://bidz42.github.io/BatBoy/
+### slides https://docs.google.com/presentation/d/1WCQzzbJKxkCCl88fWStQAarQOKUtNP9SFZF8H3k3xhM/edit?usp=sharing
 

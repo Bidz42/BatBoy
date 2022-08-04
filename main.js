@@ -14,6 +14,7 @@ canvas.style.display = "none";
 
 document.getElementById("start").onclick = () => {
     canvas.style.display = "block";
+    game.music.play();
 }
 
 //loading canvas at load and defining width n height
@@ -112,7 +113,7 @@ class Game {
     }                                                           // ground and climb enemy work either or, flying enemy is constant
 }
 const game = new Game(canvas.width, canvas.height);
-game.music.play();
+
 
 //animation time stamps and delta time
 let lastTime = 0;
